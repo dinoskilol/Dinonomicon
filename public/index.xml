@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Dinonomicon</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Dinonomicon</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Keystone Correction</title>
+    <link>https://quartz.jzhao.xyz/Keystone-Correction</link>
+    <guid>https://quartz.jzhao.xyz/Keystone-Correction</guid>
+    <description><![CDATA[ When a projector is placed at an angle to the screen, the projected image becomes distorted into a trapezoid shape instead of a rectangle. ]]></description>
+    <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Lens-shift function</title>
+    <link>https://quartz.jzhao.xyz/Lens-shift-function</link>
+    <guid>https://quartz.jzhao.xyz/Lens-shift-function</guid>
+    <description><![CDATA[ Lens shift is a mechanical adjustment in a projector that moves the lens inside the projector housing. ]]></description>
+    <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Projector light sources</title>
+    <link>https://quartz.jzhao.xyz/Projector-light-sources</link>
+    <guid>https://quartz.jzhao.xyz/Projector-light-sources</guid>
+    <description><![CDATA[ Projector light sources fall into two broad families: traditional lamp-based sources and solid-state sources. ]]></description>
+    <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Screaming Architecture</title>
+    <link>https://quartz.jzhao.xyz/Screaming-Architecture</link>
+    <guid>https://quartz.jzhao.xyz/Screaming-Architecture</guid>
+    <description><![CDATA[ Screaming Architecture is a concept introduced by renowned software developer and thought leader Robert C. Martin, often referred to as “Uncle Bob”. ]]></description>
+    <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Throw correction</title>
+    <link>https://quartz.jzhao.xyz/Throw-correction</link>
+    <guid>https://quartz.jzhao.xyz/Throw-correction</guid>
+    <description><![CDATA[ Throw correction refers to a projector’s ability to adjust the image size and placement relative to the distance between the projector and the screen, without having to physically move the projector. ]]></description>
+    <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Welcome</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[  The Dinonomicon In a world of scarcity, we treasure tools. In a world of abundance, we treasure taste. ]]></description>
+    <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
