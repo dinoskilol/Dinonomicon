@@ -1,11 +1,26 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
 
-export default (() => {
+type FooterOpts = {
+  links?: Record<string, string>
+}
+
+export default ((opts?: FooterOpts) => {
   const Footer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
-    return <footer class={`${displayClass ?? ""}`}></footer>
+    const links = opts?.links ?? {}
+    return (
+      <footer class={`${displayClass ?? ""}`}>
+        <div class="quartz-footer-links">
+          {Object.entries(links).map(([label, href]) => (
+            <a href={href} target="_blank" rel="noopener noreferrer">
+              {label}
+            </a>
+          ))}
+        </div>
+      </footer>
+    )
   }
 
   Footer.css = style
   return Footer
-}) satisfies QuartzComponentConstructor
+}) satisfies QuartzComponentConstructor<FooterOpts>
