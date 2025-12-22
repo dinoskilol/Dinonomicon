@@ -11,6 +11,7 @@ tags:
 Projector light sources fall into two broad families: traditional lamp-based sources and solid-state sources.
 
 Lamp-based sources use a replaceable bulb that produces light through electric discharge in a gas and metal salts.
+
 Solid-state sources use semiconductor devices such as LEDs or lasers to create light without a conventional bulb.
 
 ## Types of light sources

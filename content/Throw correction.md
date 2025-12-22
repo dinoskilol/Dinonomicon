@@ -12,7 +12,9 @@ tags:
 
 It is closely related to the concept of **throw ratio**, which defines how wide the image will be at a given distance.  
 
-Throw correction is usually achieved with a **zoom lens** or variable optics that allow users to fine-tune the image size. Some projectors are designed with **short throw** or **ultra-short throw** lenses to project large images from very close distances. The flexibility of throw correction directly affects installation options in different environments.
+Throw correction is usually achieved with a **zoom lens** or variable optics that allow users to fine-tune the image size. Some projectors are designed with **short throw** or **ultra-short throw** lenses to project large images from very close distances.
+
+The flexibility of throw correction directly affects installation options in different environments.
 
 ## Types of Throw Correction
 
