@@ -17,17 +17,24 @@ Code snippets, research notes, cooking recipes, gaming stuff. You'll find everyt
 
 But what you must be asking yourself is... who even is Dino?
 
-<div style="display: flex; align-items: center; gap: 1rem;">
+<div style="display: flex; align-items: center; gap: 1rem; position: relative;">
         <div style="background-image: url('Dino.png'); background-size: contain; height: 100px; width: 100px; background-repeat: no-repeat; border-radius:8px; overflow:hidden; background-position:center;">
         </div>
         <div style="display:flex;flex-direction:column;justify-content:center;">
             <h1 style="margin:0;padding:0;line-height:1.05;">Dino</h1>
                         <div style="display:flex;gap:0.5rem;margin-top:6px;flex-wrap:wrap;align-items:center;">
-                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:linear-gradient(90deg,#E6F0FF,#EEF2FF);color:#0B61D9;font-weight:600;font-size:0.85rem;border-bottom:1px solid #0849A6;">Designer</span>
-                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:linear-gradient(90deg,#F3E8FF,#F7F0FF);color:#6B21A8;font-weight:600;font-size:0.85rem;border-bottom:1px solid #53168A;">Developer</span>
-                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:linear-gradient(90deg,#ECFDF5,#F0FFF6);color:#065F46;font-weight:600;font-size:0.85rem;border-bottom:1px solid #044737;">Maker</span>
-                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:linear-gradient(90deg,#E6FFFA,#ECFEFF);color:#0E7490;font-weight:600;font-size:0.85rem;border-bottom:1px solid #084E5A;">Gamer</span>
+                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:#0849A6;color:#E6F0FF;font-weight:600;font-size:0.85rem;border:1px solid #E6F0FF;">Designer</span>
+                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:#53168A;color:#F3E8FF;font-weight:600;font-size:0.85rem;border:1px solid #F3E8FF;">Developer</span>
+                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:#044737;color:#ECFDF5;font-weight:600;font-size:0.85rem;border:1px solid #ECFDF5;">Maker</span>
+                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:#084E5A;color:#E6FFFA;font-weight:600;font-size:0.85rem;border:1px solid #E6FFFA;">Gamer</span>
                         </div>
-            <p style="margin:0.25rem 0 0 0;max-width:48ch;">Thaaat's me. My hobbies are cooking, gaming, watching / reading media and building cool things.</p>
+            <p style="margin:0.25rem 0 0 0;max-width:48ch;">Thaaat's me. I like to cook, build, play games, read. And then write about it here.</p>
         </div>
+                <div style="position:absolute;top:0;right:0;display:flex;flex-direction:column;align-items:flex-end;">
+                    <div style="display:flex;gap:0.5rem;flex-wrap:wrap;align-items:center;font-size:1.15rem;line-height:1;">
+                        <span class="fi fi-it" title="Italian" style="font-size:18px;border-radius:3px;overflow:hidden;"></span>
+                        <span class="fi fi-gb" title="English" style="font-size:18px;border-radius:3px;overflow:hidden;"></span>
+                        <span class="fi fi-de" title="German" style="font-size:18px;border-radius:3px;overflow:hidden;"></span>
+                    </div>
+                </div>
 </div>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="48" viewBox="0 0 64 48" role="img" aria-label="England flag">
+  <rect width="64" height="48" fill="#ffffff"/>
+  <rect x="28" y="0" width="8" height="48" fill="#cf142b"/>
+  <rect x="0" y="20" width="64" height="8" fill="#cf142b"/>
+</svg>

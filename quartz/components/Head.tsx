@@ -26,6 +26,7 @@ export default (() => {
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
+    const flagIconsPath = joinSegments(baseDir, "static/flag-icons/css/flag-icons.min.css")
 
     // Url of current page
     const socialUrl =
@@ -83,6 +84,7 @@ export default (() => {
         )}
 
         <link rel="icon" href={iconPath} />
+        <link rel="stylesheet" href={flagIconsPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
