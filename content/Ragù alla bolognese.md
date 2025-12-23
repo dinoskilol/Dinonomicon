@@ -1,3 +1,11 @@
+---
+title: Ragù alla bolognese
+draft: false
+date: 2025-12-23
+publish: true
+tags:
+- recipe
+---
 
 One of the simplest, most flavourful ragù you can make.
 Preferred pasta to use is <b>tagliatelle</b>, but <b>spaghetti</b> is what made it so commonly known internationally.
