@@ -206,7 +206,21 @@ button.desktop-explorer {
   flex-shrink: 0;
 }
 
-li:has(> .folder-outer:not(.open)) > .folder-container > svg {
+.folder-icon-custom {
+  margin-right: 5px;
+  color: var(--secondary);
+  cursor: pointer;
+  transition: color 0.3s ease;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.folder-icon-custom:hover {
+  color: var(--tertiary);
+}
+
+li:has(> .folder-outer:not(.open)) > .folder-container > .folder-icon {
   transform: rotate(-90deg);
 }
 

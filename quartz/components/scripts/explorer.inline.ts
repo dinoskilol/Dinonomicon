@@ -79,6 +79,17 @@ function toggleFolder(evt: MouseEvent) {
   localStorage.setItem("fileTree", stringifiedFileTree)
 }
 
+function getFolderIcon(folderName: string): string {
+  const iconMap: Record<string, string> = {
+    Gaming: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon-custom"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></svg>`,
+    Software: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon-custom"><rect width="14" height="8" x="5" y="2" rx="2"/><rect width="20" height="8" x="2" y="14" rx="2"/><path d="M6 18h2"/><path d="M12 18h6"/></svg>`,
+    Recipes: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon-custom"><path d="M2 12h20"/><path d="M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8"/><path d="m4 8 16-4"/><path d="m8.86 6.78-.45-1.81a2 2 0 0 1 1.45-2.43l1.94-.48a2 2 0 0 1 2.43 1.46l.45 1.8"/></svg>`,
+    Notes: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon-custom"><path d="M2 6h4"/><path d="M2 10h4"/><path d="M2 14h4"/><path d="M2 18h4"/><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M16 2v20"/></svg>`,
+  }
+
+  return iconMap[folderName] || null
+}
+
 function createFileNode(currentSlug: FullSlug, node: FileTrieNode): HTMLLIElement {
   const template = document.getElementById("template-file") as HTMLTemplateElement
   const clone = template.content.cloneNode(true) as DocumentFragment
@@ -110,6 +121,15 @@ function createFolderNode(
 
   const folderPath = node.slug
   folderContainer.dataset.folderpath = folderPath
+
+  // Add custom folder icon if available
+  const customIcon = getFolderIcon(node.displayName)
+  if (customIcon) {
+    const customIconSvg = folderContainer.querySelector(".folder-icon-custom") as SVGElement
+    if (customIconSvg) {
+      customIconSvg.outerHTML = customIcon
+    }
+  }
 
   if (opts.folderClickBehavior === "link") {
     // Replace button with link for link behavior
@@ -253,6 +273,25 @@ async function setupExplorer(currentSlug: FullSlug) {
     ) as HTMLCollectionOf<HTMLElement>
     for (const icon of folderIcons) {
       icon.addEventListener("click", toggleFolder)
+      window.addCleanup(() => icon.removeEventListener("click", toggleFolder))
+    }
+
+    const customIcons = explorer.getElementsByClassName(
+      "folder-icon-custom",
+    ) as HTMLCollectionOf<SVGElement>
+    for (const icon of customIcons) {
+      icon.addEventListener("click", (evt: MouseEvent) => {
+        evt.stopPropagation()
+        const folderContainer = icon.closest(".folder-container") as HTMLElement
+        if (!folderContainer) return
+        
+        // Find the link/button to trigger
+        const link = folderContainer.querySelector("a.folder-title") as HTMLAnchorElement
+        if (link) {
+          // Navigate to the folder link
+          window.location.href = link.href
+        }
+      })
       window.addCleanup(() => icon.removeEventListener("click", toggleFolder))
     }
   }
