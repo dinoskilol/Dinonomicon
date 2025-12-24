@@ -13,12 +13,12 @@ In a world of abundance, we treasure _taste_.
 
 Welcome to Dino's own Obsidian vault, powered and available online thanks to [Quartz](https://quartz.jzhao.xyz/). Call it a blog, digital garden, second brain or even [portfolio](https://dinoskilol.github.io/) (that's my actual portfolio) — what it is, it's a look into my thoughts.
 
-Code snippets, research notes, cooking recipes, gaming stuff. You'll find everything I have written down, here. It might be useful to you, or not.
+Code snippets, [research notes](/Research/), [cooking recipes](/tags/recipe), [gaming](/tags/gaming) stuff. You'll find everything I have written down, here. It might be useful to you, or not.
 
 But what you must be asking yourself is... who even is Dino?
 
 <div style="display: flex; align-items: center; gap: 1rem; position: relative;">
-        <div style="background-image: url('Dino.png'); background-size: contain; height: 100px; width: 100px; background-repeat: no-repeat; border-radius:8px; overflow:hidden; background-position:center;">
+        <div style="background-image: url('/attachments/Dino.png'); background-size: contain; height: 100px; width: 100px; background-repeat: no-repeat; border-radius:8px; overflow:hidden; background-position:center;">
         </div>
         <div style="display:flex;flex-direction:column;justify-content:center;">
             <h1 style="margin:0;padding:0;line-height:1.05;">Dino</h1>
@@ -38,3 +38,9 @@ But what you must be asking yourself is... who even is Dino?
                     </div>
                 </div>
 </div>
+
+Read about my current projects:
+- [[MetaIdle]]
+- [[Keyboard Warrior]]
+- [[Pokemon RPG Maker XP fan project]]
+
