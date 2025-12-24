@@ -18,7 +18,7 @@ Code snippets, [research notes](/Research/), [cooking recipes](/tags/recipe), [g
 But what you must be asking yourself is... who even is Dino?
 
 <div style="display: flex; align-items: center; gap: 1rem; position: relative;">
-        <div style="background-image: url('/attachments/Dino.png'); background-size: contain; height: 100px; width: 100px; background-repeat: no-repeat; border-radius:8px; overflow:hidden; background-position:center;">
+        <div style="background-image: url('attachments/Dino.png'); background-size: contain; height: 100px; width: 100px; background-repeat: no-repeat; border-radius:8px; overflow:hidden; background-position:center;">
         </div>
         <div style="display:flex;flex-direction:column;justify-content:center;">
             <h1 style="margin:0;padding:0;line-height:1.05;">Dino</h1>
