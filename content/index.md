@@ -44,3 +44,7 @@ Read about my current projects:
 - [[Keyboard Warrior]]
 - [[Pokemon RPG Maker XP fan project]]
 
+Todo:
+- logo
+- description for folders ?
+- link socials on bottom of page
