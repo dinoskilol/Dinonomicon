@@ -11,7 +11,7 @@ publish: true
 In a world of abundance, we treasure _taste_.
 > <cite>— by [Anu Atluru](https://www.workingtheorys.com/p/taste-is-eating-silicon-valley "Taste is Eating Silicon Valley")</cite>
 
-Welcome to Dino's own Obsidian vault, powered and available online thanks to [Quartz](https://quartz.jzhao.xyz/). Call it a blog, digital garden, second brain or even [portfolio](https://dinoskilol.github.io/) (that's my actual portfolio) — what it is, it's a look into my thoughts.
+Welcome to Dino's own Obsidian vault, powered and available online thanks to [Quartz](https://quartz.jzhao.xyz/). Call it a blog, digital garden, personal knowledge management, second brain or even [portfolio](https://dinoskilol.github.io/) (that's my actual portfolio) — what it is, it's a look into my thoughts.
 
 Code snippets, [research notes](/Notes/), [cooking recipes](/tags/recipe), [gaming](/tags/gaming) stuff. You'll find everything I have written down, here. It might be useful to you, or not.
 
