@@ -9,7 +9,7 @@ tags:
 - hungarian
 ---
 
-As many of you might know, my girlfriend is Hungarian. As a pet project of mine, I wish to learn Hungarian in order to not only learn more about the culture of my loved one, but also to conversate with her family more easily. Also, it will help me when I go visit Budapest again.
+As some of you might know, my girlfriend is Hungarian. As a pet project of mine, I wish to learn Hungarian in order to not only learn more about the culture of my loved one, but also to conversate with her family more easily. Also, it will help me when I go visit Budapest again.
 
 Learning a language unfortunately is not that easy though. In my opinion, apps like Duolingo don't really help as much as they're advertised to. For this reason, we are going to take a slightly different approach. While I learned English and German simply by being exposed to the languages, and Italian because it is my native tongue, for Hungarian we will use multiple tools.
 
