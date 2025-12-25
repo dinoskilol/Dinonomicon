@@ -87,7 +87,7 @@ function getFolderIcon(folderName: string): string {
     Notes: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon-custom"><path d="M2 6h4"/><path d="M2 10h4"/><path d="M2 14h4"/><path d="M2 18h4"/><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M16 2v20"/></svg>`,
   }
 
-  return iconMap[folderName] || null
+  return iconMap[folderName] ?? ""
 }
 
 function createFileNode(currentSlug: FullSlug, node: FileTrieNode): HTMLLIElement {
@@ -284,7 +284,7 @@ async function setupExplorer(currentSlug: FullSlug) {
         evt.stopPropagation()
         const folderContainer = icon.closest(".folder-container") as HTMLElement
         if (!folderContainer) return
-        
+
         // Find the link/button to trigger
         const link = folderContainer.querySelector("a.folder-title") as HTMLAnchorElement
         if (link) {

@@ -1,0 +1,16 @@
+@use "../../styles/variables.scss" as *;
+
+.video2ascii {
+  margin-top: 0.75rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  border-bottom: 1px solid var(--secondary);
+}
+
+/* video2ascii renders a canvas internally */
+.video2ascii canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+}

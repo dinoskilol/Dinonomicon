@@ -6,24 +6,23 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-  Component.Comments({
-    provider: 'giscus',
-    options: {
-      // from data-repo
-      repo: 'dinoskilol/Dinonomicon',
-      // from data-repo-id
-      repoId: 'R_kgDOQtKCYg',
-      // from data-category
-      category: 'Announcements',
-      // from data-category-id
-      categoryId: 'DIC_kwDOQtKCYs4C0IHP',
-      // from data-lang
-      lang: 'en'
-    }
-  }),
-],
-  footer: Component.Footer({
-  }),
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        // from data-repo
+        repo: "dinoskilol/Dinonomicon",
+        // from data-repo-id
+        repoId: "R_kgDOQtKCYg",
+        // from data-category
+        category: "Announcements",
+        // from data-category-id
+        categoryId: "DIC_kwDOQtKCYs4C0IHP",
+        // from data-lang
+        lang: "en",
+      },
+    }),
+  ],
+  footer: Component.Footer({}),
 }
 
 // components for pages that display a single page (e.g. a single note)
@@ -51,14 +50,12 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    
+
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.Video2Ascii()),
     Component.Backlinks(),
   ],
-  right: [
-    Component.Graph(),
-    Component.RecentNotes(),
-  ],
+  right: [Component.Graph(), Component.RecentNotes()],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)

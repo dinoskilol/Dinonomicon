@@ -15,3 +15,19 @@ export declare global {
     addCleanup(fn: (...args: any[]) => void)
   }
 }
+
+// Minimal shims so we can bundle client-only React islands without
+// introducing React's full type surface (Quartz uses Preact for TSX).
+declare module "react" {
+  const React: any
+  export default React
+}
+
+declare module "react-dom/client" {
+  export const createRoot: any
+}
+
+declare module "video2ascii" {
+  const Video2Ascii: any
+  export default Video2Ascii
+}

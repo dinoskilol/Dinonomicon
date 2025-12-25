@@ -152,6 +152,21 @@ declare module "vfile" {
         cssclasses: string[]
         socialImage: string
         comments: boolean | string
+        video2ascii:
+          | boolean
+          | string
+          | {
+              src?: string
+              numColumns?: number | string
+              colored?: boolean | string
+              brightness?: number | string
+              audioEffect?: number | string
+              enableMouse?: boolean | string
+              enableRipple?: boolean | string
+              charset?: string
+              isPlaying?: boolean | string
+              autoPlay?: boolean | string
+            }
       }>
   }
 }
