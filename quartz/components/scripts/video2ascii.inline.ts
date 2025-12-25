@@ -81,8 +81,18 @@ function setupVideo2Ascii(el: HTMLElement) {
   }
 }
 
-document.addEventListener("nav", () => {
+function setupAll() {
   document
     .querySelectorAll<HTMLElement>(".video2ascii[data-video2ascii-src]")
     .forEach(setupVideo2Ascii)
-})
+}
+
+// Mount on first page load.
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", setupAll, { once: true })
+} else {
+  setupAll()
+}
+
+// Remount on SPA navigation.
+document.addEventListener("nav", setupAll)

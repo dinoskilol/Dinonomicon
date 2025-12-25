@@ -4,9 +4,9 @@ draft: false
 date: 2025-12-22
 publish: true
 video2ascii:
-    src: /attachments/replicant.mp4
+    src: attachments/replicant.mp4
     numColumns: 70
-    charset: standard   
+    charset: standard
     brightness: 1.3
     audioEffect: 0
 ---
