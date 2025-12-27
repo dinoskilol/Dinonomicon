@@ -225,6 +225,12 @@ async function setupExplorer(currentSlug: FullSlug) {
     const explorerUl = explorer.querySelector(".explorer-ul")
     if (!explorerUl) continue
 
+    // Clear any previously rendered explorer entries (e.g. if setup runs twice on initial load)
+    for (const child of Array.from(explorerUl.children)) {
+      if (child.classList.contains("overflow-end")) continue
+      child.remove()
+    }
+
     // Create and insert new content
     const fragment = document.createDocumentFragment()
     for (const child of trie.children) {
@@ -308,6 +314,10 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const currentSlug = e.detail.url
   await setupExplorer(currentSlug)
 
+  if (!initialExplorerSetupComplete) {
+    initialExplorerSetupComplete = true
+  }
+
   // if mobile hamburger is visible, collapse by default
   for (const explorer of document.getElementsByClassName("explorer")) {
     const mobileExplorer = explorer.querySelector(".mobile-explorer")
@@ -324,6 +334,34 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     mobileExplorer.classList.remove("hide-until-loaded")
   }
 })
+
+// Fallback: on some setups the initial `nav` event can fire before this script
+// registers its listener, leaving the explorer empty until the next navigation.
+// This ensures the initial page load always gets an explorer.
+let initialExplorerSetupComplete = false
+setTimeout(() => {
+  if (initialExplorerSetupComplete) return
+  const currentSlug = (document.body?.dataset?.slug ?? "index") as FullSlug
+  setupExplorer(currentSlug)
+    .then(() => {
+      initialExplorerSetupComplete = true
+      for (const explorer of document.getElementsByClassName("explorer")) {
+        const mobileExplorer = explorer.querySelector(".mobile-explorer")
+        if (!mobileExplorer) continue
+
+        if (mobileExplorer.checkVisibility()) {
+          explorer.classList.add("collapsed")
+          explorer.setAttribute("aria-expanded", "false")
+          document.documentElement.classList.remove("mobile-no-scroll")
+        }
+
+        mobileExplorer.classList.remove("hide-until-loaded")
+      }
+    })
+    .catch(() => {
+      // ignore
+    })
+}, 0)
 
 window.addEventListener("resize", function () {
   // Desktop explorer opens by default, and it stays open when the window is resized
