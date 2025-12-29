@@ -79,6 +79,13 @@ async function joinScripts(scripts: string[]): Promise<string> {
 function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentResources) {
   const cfg = ctx.cfg.configuration
 
+  // Ensure addCleanup exists before any postscript runs.
+  // SPA mode will reuse the same Set and invoke/clear these on navigation.
+  componentResources.beforeDOMLoaded.push(`
+    window.__quartzCleanupFns = window.__quartzCleanupFns || new Set();
+    window.addCleanup = window.addCleanup || ((fn) => window.__quartzCleanupFns.add(fn));
+  `)
+
   // popovers
   if (cfg.enablePopovers) {
     componentResources.afterDOMLoaded.push(popoverScript)

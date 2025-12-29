@@ -123,11 +123,14 @@ function clearActivePopover() {
 function attachPopoverListeners() {
   const links = [...document.querySelectorAll("a.internal")] as HTMLAnchorElement[]
   for (const link of links) {
+    if (link.dataset.popoverBound === "true") continue
+    link.dataset.popoverBound = "true"
     link.addEventListener("mouseenter", mouseEnterHandler)
     link.addEventListener("mouseleave", clearActivePopover)
     window.addCleanup(() => {
       link.removeEventListener("mouseenter", mouseEnterHandler)
       link.removeEventListener("mouseleave", clearActivePopover)
+      delete link.dataset.popoverBound
     })
   }
 }
