@@ -20,13 +20,13 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "local",
+      fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        title: "RodinPro-L-AlphaNum",
-        header: "RodinPro-L-AlphaNum",
-        body: "RodinPro-L-AlphaNum",
-        code: "IBM Plex Mono",
+        title: "Roboto Flex",
+        header: "Roboto Flex",
+        body: "Roboto Flex",
+        code: "Roboto Flex",
       },
       colors: {
         lightMode: {
