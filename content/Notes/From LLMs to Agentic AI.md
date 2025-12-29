@@ -10,7 +10,7 @@ tags:
 
 This entry breaks down the architectural evolution of modern AI systems as shown in the diagram, moving from simple Large Language Model workflows to fully agentic, multi agent systems.
 
-![LLMtoAgenticAIdiagram.png]
+![[LLMtoAgenticAIdiagram.png]]
 Picture from *Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems by Antonio Gulli*
 
 # 1. Basic LLM Workflow
