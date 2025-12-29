@@ -6,6 +6,12 @@
       <description>Last 10 notes on Dinonomicon</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>From LLMs to Agentic AI</title>
+    <link>https://dinoskilol.github.io/Dinonomicon/Notes/From-LLMs-to-Agentic-AI</link>
+    <guid>https://dinoskilol.github.io/Dinonomicon/Notes/From-LLMs-to-Agentic-AI</guid>
+    <description><![CDATA[ This entry breaks down the architectural evolution of modern AI systems as shown in the diagram, moving from simple Large Language Model workflows to fully agentic, multi agent systems. ]]></description>
+    <pubDate>Sun, 28 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
     <title>Comp Compendium</title>
     <link>https://dinoskilol.github.io/Dinonomicon/Gaming/TFT/Set-16/Comp-Compendium</link>
     <guid>https://dinoskilol.github.io/Dinonomicon/Gaming/TFT/Set-16/Comp-Compendium</guid>
@@ -58,12 +64,6 @@
     <link>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Lens-shift-function</link>
     <guid>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Lens-shift-function</guid>
     <description><![CDATA[ Lens shift is a mechanical adjustment in a projector that moves the lens inside the projector housing. ]]></description>
-    <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
-  </item><item>
-    <title>Projector light sources</title>
-    <link>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Projector-light-sources</link>
-    <guid>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Projector-light-sources</guid>
-    <description><![CDATA[ Projector light sources fall into two broad families: traditional lamp-based sources and solid-state sources. ]]></description>
     <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
   </item>
     </channel>
