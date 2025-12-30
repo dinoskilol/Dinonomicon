@@ -6,9 +6,17 @@ import { i18n } from "../i18n"
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
+  
   return (
     <div class={classNames(displayClass, "page-title-container")}>
-      <a href="javascript:void(0)" class="back-link" title="Back to Portfolio" onClick={(e) => { e.preventDefault(); window.open("https://dinoskilol.github.io/", "_blank"); }}>
+      <a
+        href="https://dinoskilol.github.io/"
+        class="back-link"
+        title="Back to Portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-router-ignore
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
