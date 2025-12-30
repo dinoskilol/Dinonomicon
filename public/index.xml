@@ -1,62 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Dinonomicon</title>
+      <title>/Dinonomicon</title>
       <link>https://dinoskilol.github.io/Dinonomicon</link>
-      <description>Last 10 notes on Dinonomicon</description>
+      <description>Last 10 notes on /Dinonomicon</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>AI &amp; Dev Tools Stack</title>
+    <link>https://dinoskilol.github.io/Dinonomicon/Inbox/AI--and--Dev-Tools-Stack</link>
+    <guid>https://dinoskilol.github.io/Dinonomicon/Inbox/AI--and--Dev-Tools-Stack</guid>
+    <description><![CDATA[ A curated list of tools for building websites, web apps, mobile apps, and supporting assets. Grouped by purpose rather than popularity. ]]></description>
+    <pubDate>Mon, 29 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>My blog&#039;s folder structure</title>
+    <link>https://dinoskilol.github.io/Dinonomicon/Journal/My-blog's-folder-structure</link>
+    <guid>https://dinoskilol.github.io/Dinonomicon/Journal/My-blog's-folder-structure</guid>
+    <description><![CDATA[ This vault serves two purposes at the same time. ]]></description>
+    <pubDate>Mon, 29 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Research for a diagonally-mounted projector</title>
+    <link>https://dinoskilol.github.io/Dinonomicon/Journal/Research-for-a-diagonally-mounted-projector</link>
+    <guid>https://dinoskilol.github.io/Dinonomicon/Journal/Research-for-a-diagonally-mounted-projector</guid>
+    <description><![CDATA[  Scenario description A projector is required for a gate corridor, which will be used to project symbols like arrows or brand images/logos on the floor. ]]></description>
+    <pubDate>Mon, 29 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
     <title>From LLMs to Agentic AI</title>
-    <link>https://dinoskilol.github.io/Dinonomicon/Notes/From-LLMs-to-Agentic-AI</link>
-    <guid>https://dinoskilol.github.io/Dinonomicon/Notes/From-LLMs-to-Agentic-AI</guid>
+    <link>https://dinoskilol.github.io/Dinonomicon/Articles/From-LLMs-to-Agentic-AI</link>
+    <guid>https://dinoskilol.github.io/Dinonomicon/Articles/From-LLMs-to-Agentic-AI</guid>
     <description><![CDATA[ This entry breaks down the architectural evolution of modern AI systems as shown in the diagram, moving from simple Large Language Model workflows to fully agentic, multi agent systems. ]]></description>
     <pubDate>Sun, 28 Dec 2025 23:00:00 GMT</pubDate>
   </item><item>
-    <title>Comp Compendium</title>
-    <link>https://dinoskilol.github.io/Dinonomicon/Gaming/TFT/Set-16/Comp-Compendium</link>
-    <guid>https://dinoskilol.github.io/Dinonomicon/Gaming/TFT/Set-16/Comp-Compendium</guid>
-    <description><![CDATA[  Set 16 Flex Guide by CHRISTOPHO Contains: Tempo Lvl 8 / 9 Yunara Freljord Ionia XP / Gold Void Diana T-Hex Lissandra / Voli Bilgewater Reroll Tryndamere / Ashe Yasuo / Yone Illaoi Hero Augment Set 16 T-Hex Piltover Guide by asholley1015 Set 16 Rek’Sai Reroll Guide by G_Ree . ]]></description>
-    <pubDate>Tue, 23 Dec 2025 23:00:00 GMT</pubDate>
-  </item><item>
-    <title>TFT Set 16 - Bard meta</title>
-    <link>https://dinoskilol.github.io/Dinonomicon/Gaming/TFT/Set-16/TFT-Set-16---Bard-meta</link>
-    <guid>https://dinoskilol.github.io/Dinonomicon/Gaming/TFT/Set-16/TFT-Set-16---Bard-meta</guid>
-    <description><![CDATA[  Bard’s Caretaker trait is very powerful. Caretaker After winning player combat, gain a random unit from Runeterra. ]]></description>
-    <pubDate>Tue, 23 Dec 2025 23:00:00 GMT</pubDate>
-  </item><item>
-    <title>TFT Set 16 - Swain Positioning</title>
-    <link>https://dinoskilol.github.io/Dinonomicon/Gaming/TFT/Set-16/TFT-Set-16---Swain-Positioning</link>
-    <guid>https://dinoskilol.github.io/Dinonomicon/Gaming/TFT/Set-16/TFT-Set-16---Swain-Positioning</guid>
-    <description><![CDATA[  Swain is one of the most splashable units of this set, be it for his traits (Arcanist giving AP to the entire board, Juggernaut makes him more reliably durable and Noxus can be a good addition, especially with Bronze for Life) or for his AoE CC. ]]></description>
-    <pubDate>Tue, 23 Dec 2025 23:00:00 GMT</pubDate>
-  </item><item>
-    <title>Flares and Bahamut&#039;s Pinnacle</title>
-    <link>https://dinoskilol.github.io/Dinonomicon/Gaming/Final-Fantasy/Flares-and-Bahamut's-Pinnacle</link>
-    <guid>https://dinoskilol.github.io/Dinonomicon/Gaming/Final-Fantasy/Flares-and-Bahamut's-Pinnacle</guid>
-    <description><![CDATA[  Zettaflare The strongest Bahamut… no, Final Fantasy spell? Let’s venture into the different versions of Flare throughout Final Fantasy history and the franchise. ]]></description>
-    <pubDate>Mon, 22 Dec 2025 23:00:00 GMT</pubDate>
-  </item><item>
-    <title>Ragù alla bolognese</title>
-    <link>https://dinoskilol.github.io/Dinonomicon/Recipes/Rag%C3%B9-alla-bolognese</link>
-    <guid>https://dinoskilol.github.io/Dinonomicon/Recipes/Rag%C3%B9-alla-bolognese</guid>
-    <description><![CDATA[ One of the simplest, most flavourful ragù you can make. ]]></description>
-    <pubDate>Mon, 22 Dec 2025 23:00:00 GMT</pubDate>
-  </item><item>
     <title>Roadmap for learning the Hungarian language</title>
-    <link>https://dinoskilol.github.io/Dinonomicon/Roadmap-for-learning-the-Hungarian-language</link>
-    <guid>https://dinoskilol.github.io/Dinonomicon/Roadmap-for-learning-the-Hungarian-language</guid>
+    <link>https://dinoskilol.github.io/Dinonomicon/Journal/Roadmap-for-learning-the-Hungarian-language</link>
+    <guid>https://dinoskilol.github.io/Dinonomicon/Journal/Roadmap-for-learning-the-Hungarian-language</guid>
     <description><![CDATA[ As some of you might know, my girlfriend is Hungarian. ]]></description>
     <pubDate>Mon, 22 Dec 2025 23:00:00 GMT</pubDate>
   </item><item>
     <title>Atomic design</title>
-    <link>https://dinoskilol.github.io/Dinonomicon/Software/Atomic-Design</link>
-    <guid>https://dinoskilol.github.io/Dinonomicon/Software/Atomic-Design</guid>
+    <link>https://dinoskilol.github.io/Dinonomicon/Notes/Atomic-Design</link>
+    <guid>https://dinoskilol.github.io/Dinonomicon/Notes/Atomic-Design</guid>
     <description><![CDATA[ Atomic design is a methodology composed of five distinct stages working together to create interface design systems in a more deliberate and hierarchical manner. ]]></description>
     <pubDate>Mon, 22 Dec 2025 23:00:00 GMT</pubDate>
   </item><item>
     <title>Keystone correction</title>
-    <link>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Keystone-Correction</link>
-    <guid>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Keystone-Correction</guid>
+    <link>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Keystone-correction</link>
+    <guid>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Keystone-correction</guid>
     <description><![CDATA[ When a projector is placed at an angle to the screen, the projected image becomes distorted into a trapezoid shape instead of a rectangle. ]]></description>
     <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
   </item><item>
@@ -64,6 +52,18 @@
     <link>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Lens-shift-function</link>
     <guid>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Lens-shift-function</guid>
     <description><![CDATA[ Lens shift is a mechanical adjustment in a projector that moves the lens inside the projector housing. ]]></description>
+    <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Projector light sources</title>
+    <link>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Projector-light-sources</link>
+    <guid>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Projector-light-sources</guid>
+    <description><![CDATA[ Projector light sources fall into two broad families: traditional lamp-based sources and solid-state sources. ]]></description>
+    <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Throw correction</title>
+    <link>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Throw-correction</link>
+    <guid>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Throw-correction</guid>
+    <description><![CDATA[ Throw correction refers to a projector’s ability to adjust the image size and placement relative to the distance between the projector and the screen, without having to physically move the projector. ]]></description>
     <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
   </item>
     </channel>

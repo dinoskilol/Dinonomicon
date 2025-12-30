@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Dinonomicon",
+    pageTitle: "/Dinonomicon",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        title: "Roboto Flex",
+        title: "IBM Plex Mono",
         header: "Roboto Flex",
         body: "Roboto Flex",
         code: "Roboto Flex",

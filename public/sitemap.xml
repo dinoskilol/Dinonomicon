@@ -1,20 +1,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://dinoskilol.github.io/Dinonomicon/Gaming/Final-Fantasy/Flares-and-Bahamut's-Pinnacle</loc>
-    <lastmod>2025-12-22T23:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dinoskilol.github.io/Dinonomicon/Gaming/TFT/Set-16/Comp-Compendium</loc>
-    <lastmod>2025-12-23T23:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dinoskilol.github.io/Dinonomicon/Gaming/TFT/Set-16/TFT-Set-16---Bard-meta</loc>
-    <lastmod>2025-12-23T23:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dinoskilol.github.io/Dinonomicon/Gaming/TFT/Set-16/TFT-Set-16---Swain-Positioning</loc>
-    <lastmod>2025-12-23T23:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dinoskilol.github.io/Dinonomicon/Notes/From-LLMs-to-Agentic-AI</loc>
+    <loc>https://dinoskilol.github.io/Dinonomicon/Articles/From-LLMs-to-Agentic-AI</loc>
     <lastmod>2025-12-28T23:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Keystone-Correction</loc>
+    <loc>https://dinoskilol.github.io/Dinonomicon/Inbox/AI--and--Dev-Tools-Stack</loc>
+    <lastmod>2025-12-29T23:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dinoskilol.github.io/Dinonomicon/Journal/My-blog's-folder-structure</loc>
+    <lastmod>2025-12-29T23:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dinoskilol.github.io/Dinonomicon/Journal/Research-for-a-diagonally-mounted-projector</loc>
+    <lastmod>2025-12-29T23:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dinoskilol.github.io/Dinonomicon/Journal/Roadmap-for-learning-the-Hungarian-language</loc>
+    <lastmod>2025-12-22T23:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dinoskilol.github.io/Dinonomicon/Notes/Atomic-Design</loc>
+    <lastmod>2025-12-22T23:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Keystone-correction</loc>
     <lastmod>2025-12-21T23:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Lens-shift-function</loc>
@@ -26,16 +29,7 @@
     <loc>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Throw-correction</loc>
     <lastmod>2025-12-21T23:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://dinoskilol.github.io/Dinonomicon/Recipes/Rag%C3%B9-alla-bolognese</loc>
-    <lastmod>2025-12-22T23:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dinoskilol.github.io/Dinonomicon/Roadmap-for-learning-the-Hungarian-language</loc>
-    <lastmod>2025-12-22T23:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dinoskilol.github.io/Dinonomicon/Software/Atomic-Design</loc>
-    <lastmod>2025-12-22T23:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://dinoskilol.github.io/Dinonomicon/Software/Screaming-Architecture</loc>
+    <loc>https://dinoskilol.github.io/Dinonomicon/Notes/Screaming-Architecture</loc>
     <lastmod>2025-12-21T23:00:00.000Z</lastmod>
   </url><url>
     <loc>https://dinoskilol.github.io/Dinonomicon/</loc>

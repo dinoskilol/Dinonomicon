@@ -5,7 +5,6 @@ date: 2025-12-22
 publish: true
 tags:
 - projector
-- research
 ---
 
 Projector light sources fall into two broad families: traditional lamp-based sources and solid-state sources.

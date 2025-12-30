@@ -49,6 +49,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
+    Component.SocialLinks(),
     Component.Explorer(),
 
     Component.DesktopOnly(Component.TableOfContents()),
@@ -73,6 +74,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
+    Component.SocialLinks(),
     Component.Explorer(),
   ],
   right: [],

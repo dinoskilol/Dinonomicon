@@ -5,7 +5,6 @@ date: 2025-12-22
 publish: true
 tags:
 - projector
-- research
 ---
 
 When a projector is placed at an angle to the screen, the projected image becomes distorted into a trapezoid shape instead of a rectangle.

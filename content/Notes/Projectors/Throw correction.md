@@ -5,7 +5,6 @@ date: 2025-12-22
 publish: true
 tags:
 - projector
-- research
 ---
 
 **Throw correction** refers to a projector’s ability to adjust the image size and placement relative to the distance between the projector and the screen, without having to physically move the projector.

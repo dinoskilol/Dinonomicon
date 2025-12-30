@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Homepage
 draft: false
 date: 2025-12-22
 publish: true
@@ -19,7 +19,7 @@ In a world of abundance, we treasure _taste_.
 
 Welcome to Dino's own Obsidian vault, powered and available online thanks to [Quartz](https://quartz.jzhao.xyz/). Call it a blog, digital garden, personal knowledge management, second brain or even [portfolio](https://dinoskilol.github.io/) (that's my actual portfolio) — what it is, it's a look into my thoughts.
 
-Code snippets, [research notes](/Notes/), [cooking recipes](/tags/recipe), [gaming](/tags/gaming) stuff. You'll find everything I have written down, here. It might be useful to you, or not.
+You'll find everything I have written down, here. It might be useful to you, or not. 
 
 But what you must be asking yourself is... who even is Dino?
 
@@ -29,12 +29,10 @@ But what you must be asking yourself is... who even is Dino?
         <div style="display:flex;flex-direction:column;justify-content:center;">
             <h1 style="margin:0;padding:0;line-height:1.05;">Dino</h1>
                         <div style="display:flex;gap:0.5rem;margin-top:6px;flex-wrap:wrap;align-items:center;">
-                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:#0849A6;color:#E6F0FF;font-weight:600;font-size:0.85rem;border:1px solid #E6F0FF;">Designer</span>
-                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:#53168A;color:#F3E8FF;font-weight:600;font-size:0.85rem;border:1px solid #F3E8FF;">Developer</span>
-                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:#044737;color:#ECFDF5;font-weight:600;font-size:0.85rem;border:1px solid #ECFDF5;">Maker</span>
-                              <span style="display:inline-block;padding:0.18rem 0.6rem;border-radius:8px;background:#084E5A;color:#E6FFFA;font-weight:600;font-size:0.85rem;border:1px solid #E6FFFA;">Gamer</span>
+                              <span style="display:inline-block;padding:0.15rem 0.5rem;border-radius:5px;background:var(--secondary);color:var(--light);font-family:'IBM Plex Mono', monospace;font-weight:600;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;box-shadow: 0 2px 4px rgba(0,0,0,0.1);">Designer</span>
+                              <span style="display:inline-block;padding:0.15rem 0.5rem;border-radius:5px;background:var(--secondary);color:var(--light);font-family:'IBM Plex Mono', monospace;font-weight:600;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;box-shadow: 0 2px 4px rgba(0,0,0,0.1);">Developer</span>
                         </div>
-            <p style="margin:0.25rem 0 0 0;max-width:48ch;">Thaaat's me. I like to cook, build, play games, read. And then write about it here.</p>
+            <p style="margin:0.25rem 0 0 0;max-width:66ch;">Thaaat's me. I like to read, research, build and iterate upon it. If you wanna know more about me, check out my portfolio or read some posts in this blog!</p>
         </div>
                 <div style="position:absolute;top:0;right:0;display:flex;flex-direction:column;align-items:flex-end;">
                     <div style="display:flex;gap:0.5rem;flex-wrap:wrap;align-items:center;font-size:1.15rem;line-height:1;">
@@ -45,12 +43,20 @@ But what you must be asking yourself is... who even is Dino?
                 </div>
 </div>
 
-Read about my current projects:
-- [[MetaIdle]]
-- [[Keyboard Warrior]]
-- [[Pokemon RPG Maker XP fan project]]
+# Featured Articles
 
-Todo:
-- logo
-- description for folders ?
-- link socials on bottom of page
+<div class="article-cards">
+  <a href="/My blog's folder structure" class="article-card">
+    <p class="card-category">Journal</p>
+    <p class="card-title">My blog's folder structure</p>
+    <p class="card-description">A concise overview of the folder structure used in my Obsidian vault / personal blog.</p>
+    <span class="card-arrow">Read more →</span>
+  </a>
+  <a href="/AI-&-Dev-Tools-Stack" class="article-card">
+    <p class="card-category">Inbox</p>
+    <p class="card-title">AI & Dev Tools Stack</p>
+    <p class="card-description">A curated list of tools for building websites, web apps, mobile apps, and supporting assets.</p>
+    <span class="card-arrow">Read more →</span>
+  </a>
+</div>
+

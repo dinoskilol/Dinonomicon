@@ -5,7 +5,6 @@ date: 2025-12-22
 publish: true
 tags:
 - projector
-- research
 ---
 
 **Lens shift** is a mechanical adjustment in a projector that moves the lens inside the projector housing. By shifting the lens up, down, left, or right, the image position on the screen can be changed without tilting the projector and without introducing trapezoid distortion.  
