@@ -95,7 +95,7 @@ button.desktop-explorer {
   background-color: transparent;
   border: none;
   text-align: left;
-  cursor: pointer;
+  cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b212e6b71494aa67ff_cursor-pointer%402x.svg") 12 0, pointer;
   padding: 0;
   color: var(--dark);
   display: flex;
@@ -178,7 +178,7 @@ button.desktop-explorer {
     background-color: transparent;
     border: none;
     text-align: left;
-    cursor: pointer;
+    cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b212e6b71494aa67ff_cursor-pointer%402x.svg") 12 0, pointer;
     padding-left: 0;
     padding-right: 0;
     display: flex;
@@ -200,7 +200,7 @@ button.desktop-explorer {
 .folder-icon {
   margin-right: 5px;
   color: var(--secondary);
-  cursor: pointer;
+  cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b212e6b71494aa67ff_cursor-pointer%402x.svg") 12 0, pointer;
   transition: transform 0.3s ease;
   backface-visibility: visible;
   flex-shrink: 0;
@@ -209,7 +209,7 @@ button.desktop-explorer {
 .folder-icon-custom {
   margin-right: 5px;
   color: var(--secondary);
-  cursor: pointer;
+  cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b212e6b71494aa67ff_cursor-pointer%402x.svg") 12 0, pointer;
   transition: color 0.3s ease;
   flex-shrink: 0;
   width: 16px;

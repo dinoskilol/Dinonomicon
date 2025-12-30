@@ -16,7 +16,7 @@
     overflow: hidden;
 
     & > .global-graph-icon {
-      cursor: pointer;
+      cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b212e6b71494aa67ff_cursor-pointer%402x.svg") 12 0, pointer;
       background: none;
       border: none;
       color: var(--dark);
@@ -31,7 +31,7 @@
       border-radius: 4px;
       background-color: transparent;
       transition: background-color 0.5s ease;
-      cursor: pointer;
+      cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b212e6b71494aa67ff_cursor-pointer%402x.svg") 12 0, pointer;
       &:hover {
         background-color: var(--lightgray);
       }

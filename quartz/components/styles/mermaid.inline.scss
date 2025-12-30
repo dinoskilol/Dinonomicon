@@ -19,7 +19,7 @@
   }
 
   &:hover {
-    cursor: pointer;
+    cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b212e6b71494aa67ff_cursor-pointer%402x.svg") 12 0, pointer;
     border-color: var(--secondary);
   }
 
@@ -107,7 +107,7 @@ pre {
         background: var(--light);
         color: var(--dark);
         border-radius: 4px;
-        cursor: pointer;
+        cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b212e6b71494aa67ff_cursor-pointer%402x.svg") 12 0, pointer;
         font-size: 16px;
         font-family: var(--bodyFont);
         transition: all 0.2s ease;
