@@ -8,7 +8,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
   return (
     <div class={classNames(displayClass, "page-title-container")}>
-      <button class="back-link" title="Back to Portfolio" onClick={() => window.open("https://dinoskilol.github.io/", "_blank")}>
+      <a href="javascript:void(0)" class="back-link" title="Back to Portfolio" onClick={(e) => { e.preventDefault(); window.open("https://dinoskilol.github.io/", "_blank"); }}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
@@ -23,7 +23,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
           <path d="m12 19-7-7 7-7" />
           <path d="M19 12H5" />
         </svg>
-      </button>
+      </a>
       <h2 class="page-title">
         <a href={baseDir}>{title}</a>
       </h2>
@@ -51,10 +51,7 @@ PageTitle.css = `
   color: var(--darkgray);
   transition: transform 0.2s, color 0.2s;
   margin-top: 0.2rem;
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
+  cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b212e6b71494aa67ff_cursor-pointer%402x.svg") 12 0, pointer;
 }
 
 .back-link:hover {
