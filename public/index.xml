@@ -6,12 +6,6 @@
       <description>Last 10 notes on /Dinonomicon</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Dinonomicon</title>
-    <link>https://dinoskilol.github.io/Dinonomicon/</link>
-    <guid>https://dinoskilol.github.io/Dinonomicon/</guid>
-    <description><![CDATA[ Welcome to Dinonomicon. This is a placeholder home page. You can customize it later. ]]></description>
-    <pubDate>Tue, 30 Dec 2025 10:20:30 GMT</pubDate>
-  </item><item>
     <title>AI &amp; Dev Tools Stack</title>
     <link>https://dinoskilol.github.io/Dinonomicon/Inbox/AI--and--Dev-Tools-Stack</link>
     <guid>https://dinoskilol.github.io/Dinonomicon/Inbox/AI--and--Dev-Tools-Stack</guid>
@@ -64,6 +58,12 @@
     <link>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Projector-light-sources</link>
     <guid>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Projector-light-sources</guid>
     <description><![CDATA[ Projector light sources fall into two broad families: traditional lamp-based sources and solid-state sources. ]]></description>
+    <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Throw correction</title>
+    <link>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Throw-correction</link>
+    <guid>https://dinoskilol.github.io/Dinonomicon/Notes/Projectors/Throw-correction</guid>
+    <description><![CDATA[ Throw correction refers to a projector’s ability to adjust the image size and placement relative to the distance between the projector and the screen, without having to physically move the projector. ]]></description>
     <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
   </item>
     </channel>
